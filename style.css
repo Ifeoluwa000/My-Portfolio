@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 49);
+    color: #fff;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgb(4, 4, 91);
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(4, 4, 91);
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(98, 171, 244);
+}
+
+/*  Hero Section */
+.hero {
+    background-image: url(website.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Me Section */
+ .body {
+        padding: 50px;
+}
+
+/* Projects Section */
+.body {
+    padding: 50px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.projects-category {
+    border: 1px solid #ccc ;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.projects-category ul {
+    list-style: none;
+    padding: 0;
+}
+      
+      .container {
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        border-radius: 15px;
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+      }
+      
+      .heading {
+        font-size: 35px;
+        font-weight: 700;
+      }
+      
+      .quote {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      
+      .author {
+        font-size: 25px;
+        margin: 10px;
+        font-style: italic;
+      }
+      
+      .btn {
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 15px;
+        background-color: rgba(60, 106, 214, 0.3);
+        border-color: rgba(52, 85, 194, 0.6);
+        text-transform: uppercase;
+        width: 300px;
+      }
+      
+      .btn:hover{
+          background-color: rgba(24, 29, 196, 0.6);
+          box-shadow: 0 4px 4px 25px(0,0,0,.3);
+          transition: all 300ms ease-in-out;
+          color: rgb(98, 171, 244);
+      }
+
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skills-category {
+    border: 1px solid #ccc;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.skills-category ul {
+    list-style: none;
+    padding:0
+}
+
+/* Experience section */
+.container {
+    background-size: cover;
+    padding: 50px;
+}
+
+/* Contact Form */
+#contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Footer Section*/
+footer {
+    background-image: url(website.png);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queries */
+/* Default styles for larger screens */
+body {
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Styles for small screens e.g smartphones */
+@media ( max-width: 500px) {
+    body {
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav {
+        padding: 10px;
+        font-size:12px ;
+}
+}
+/* Styles for medium screens e.g tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+        padding: 15px;
+    }
+    nav {
+        padding: 15px;
+        font-size: 15px;
+
+    }
+    
+}
+
+/* Styles for large screen e.g desktops */
+@media (min-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+    nav {
+        padding: 20px;
+        font-size: 16px;
+}
+
+}

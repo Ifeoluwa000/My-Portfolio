@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifeoluwa's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ifeoluwa Ojo</div>
+            <ul>
+               <li><a href="#home">Home<i class="fas fa-home"></i></a></li> 
+                <li><a href="#about">About<i class="fas fa-about"></i></a></li> 
+                <li><a href="#projects">Projects<i class="fas fa-projects"></i></a></li>
+                <li><a href="#skills">Skills<i class="fas fa-skills"></i></a></li>
+                <li><a href="#experience">Experience<i class="fas fa-experience"></i></a></li>
+                <li><a href="#contact">Contact<i class="fas fa-contact"></i></a></li>
+            </ul>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Ifeoluwa Ojo</h1>
+                <h1>Welcome to my Portfolio</h1>
+                <p>Explore my work and get in touch!</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </section>
+        
+        <!-- About Me Section -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <div class="about-image">
+                    <img src="profile.png">
+                    <p>Hi, I'm Ifeoluwa Ojo, a passionate web developer with a strong background in frontend and backend technologies. I'm dedicated to creating modern, responsive, and user-friendly websites amd applications.</p>
+                    <p>With several years of experience, I've goned my skills in HTML, CSS, Javascript and various frameworks and libraries. I'm always eager to learn new technologies and stay up-to-date with the latest industry trends.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1-->
+                    <h3>Project 1</h3>
+                    <h5>Random Quote Generator</h5>
+                    <div class="project">
+                    <img src="project 1.htm" >
+                        </html>
+                </div>
+                <!-- Project 2-->
+                <h3>Project 2</h3>
+                <h5>Random Color Generator</h5>
+                <div class="project">
+                    <img src="project 2" alt="Project 2">
+                    <p>Let's create a tool that generates multiple random colors and codes with JavaScript. Upon refreshing the page, the colors and codes change randomly for up to 30 color containers. The website is also designed to be responsive, adapting to different screen sizes. It displays the colors in four columns on larger screens, then decreases to three, two, and ultimately one column for smaller screens. This provides a seamless user experience on any device.</p>
+                    <a href="https://www.100jsprojects.com/project/random-color-generator"></a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <div class="skill-container"></div>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <!-- Backend Skills -->
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <!-- Design Skills -->
+                <div class="skills-category">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section-->
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <ul class="experience-list">
+                    <li>
+                        <h3>New Horizons</h3>
+                        <p>Role: Intern</p>
+                        <p>Duration: June 2022 - Present</p>
+                    </li>
+                    <li>
+                        <h3>New Horizons</h3>
+                        <p>Software Developer</p>
+                        <p>Duration: January 2024 - Present</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact  Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder=" Name" required>
+                <input type="email" name="email" placeholder=" Email" required>
+                <textarea name="message" placeholder=" Message" required></textarea>
+                <button type="=submit">Submit</button>
+            </form>
+
+            <div id="thankYouMessage"
+            style="display: none;">
+        Thank you for submitting the form!
+    </div>
+        </section>
+
+        <!--Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Ifeoluwa's Portfolio. All Rights Reserved.</p>
+                <p>Date: <span id="current-date"></span></p>
+                <p>Time: <span id="current-time"></span></p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
